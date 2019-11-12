@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>success!</title>
+<title>successs!</title>
 
  <style type="text/css">
  p{padding-top: 40px}
