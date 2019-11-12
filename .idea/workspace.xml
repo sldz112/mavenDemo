@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mavenDemo:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a893f43c-4a25-4e95-89d6-3f0b73754592" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mavenDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Resources/Mapper-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DAO/IJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DAO/StScMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DAO/doIJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Lession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean/page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/biz/IBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/biz/doIBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/filter/dofilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/servlet/IAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/servlet/doAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/util/AjAxUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/addst.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/doserver.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/douseserver.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/easyloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/jquery-1.9.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/jquery.easyui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-cz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-jp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-sv_SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.combo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.combobox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.combogrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.combotree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.datagrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.datebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.datetimebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.draggable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.droppable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.linkbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.menubutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.messager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.numberbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.numberspinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.progressbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.propertygrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.resizable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.searchbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.splitbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.timespinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.treegrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.validatebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/plugins/jquery.window.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/black/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/bootstrap/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/default/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/gray/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/cut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/edit_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/edit_remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/filesave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/mini_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/mini_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/mini_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/reload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/sum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/tip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/icons/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/easyui/themes/metro/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/err.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/findByNa.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/findByNaErr.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fogotpw.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fogotpwsuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/stlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/type.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/updatepw.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/uselist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/useradd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Mapper-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/DAO/IJdbc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/DAO/StScMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bean/Lession.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bean/Score.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bean/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bean/login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/bean/page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/biz/IBiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/biz/doIBiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/filter/dofilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/servlet/IAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/servlet/doAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/util/AjAxUtils$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/util/AjAxUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/classes/Mapper-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/classes/com/DAO/IJdbc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/classes/com/DAO/StScMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/classes/com/bean/Lession.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/classes/com/bean/Score.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/classes/com/bean/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/classes/com/bean/login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/classes/com/bean/page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/classes/com/biz/IBiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/classes/com/biz/doIBiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/classes/com/filter/dofilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/classes/com/servlet/IAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/classes/com/servlet/doAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/classes/com/util/AjAxUtils$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/classes/com/util/AjAxUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/aspectjweaver-1.8.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/commons-io-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/commons-pool-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/fastjson-1.2.35.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/mybatis-3.4.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/mysql-connector-java-5.1.37.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/spring-aop-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/spring-beans-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/spring-context-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/spring-context-support-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/spring-core-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/spring-expression-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/spring-jdbc-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/spring-oxm-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/spring-test-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/spring-tx-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/spring-web-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/spring-webmvc-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/taglibs-standard-compat-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/taglibs-standard-jstlel-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/addst.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/doserver.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/douseserver.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/easyloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/jquery-1.9.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/jquery.easyui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-cz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-jp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-sv_SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/locale/easyui-lang-zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.combo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.combobox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.combogrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.combotree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.datagrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.datebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.datetimebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.draggable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.droppable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.linkbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.menubutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.messager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.numberbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.numberspinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.progressbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.propertygrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.resizable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.searchbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.splitbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.timespinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.treegrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.validatebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/plugins/jquery.window.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/black/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/bootstrap/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/default/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/gray/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/cut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/edit_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/edit_remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/filesave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/mini_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/mini_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/mini_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/reload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/sum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/tip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/icons/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/easyui/themes/metro/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/err.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/findByNa.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/findByNaErr.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/fogotpw.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/fogotpwsuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/look.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/picture/1573549495367.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/stlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/type.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/updatepw.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/uselist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/useradd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/mavenDemo/welcome.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/welcome.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Resources/Mapper-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1026">
+              <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="981d106f-6f43-4a8a-ba21-de3a4aa1ad9f" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/biz/IBiz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/DAO/IJdbc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bean/Score.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/biz/doIBiz.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/target/mavenDemo/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/target/mavenDemo/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="209" />
+    <option name="y" value="6" />
+    <option name="width" value="1396" />
+    <option name="height" value="860" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mavenDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mavenDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mavenDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mavenDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mavenDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mavenDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mavenDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mavenDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\mavenDemo\src\main\webapp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\mavenDemo\src\main\webapp" />
+      <recent name="F:\mavenDemo\src\main\Resources" />
+      <recent name="F:\mavenDemo\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.461" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.461" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="mavenDemo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/mavenDemo_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_mavenDemo" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4621" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mavenDemo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a893f43c-4a25-4e95-89d6-3f0b73754592" name="Default Changelist" comment="" />
+      <created>1573541092614</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573541092614</updated>
+      <workItem from="1573541095535" duration="7737000" />
+      <workItem from="1573549413959" duration="1999000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9736000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20822622" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293011" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.17092867" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3293011" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3293011" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3293011" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/Lession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/servlet/stAddServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/servlet/userServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/servlet/scoreServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-173">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/servlet/IAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/DAO/IJdbc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bean/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2133">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/IBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/servlet/doAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="e#1622#1637#0" expanded="true" />
+            <element signature="e#3450#3465#0" expanded="true" />
+            <element signature="e#8143#8158#0" expanded="true" />
+            <element signature="e#8729#8744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/filter/dofilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/DAO/StScMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/DAO/doIJdbc.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/doIBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/mavenDemo/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1214">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/easyui/locale/easyui-lang-af.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="269" selection-start-line="269" selection-end-line="269" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/mavenDemo/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/mavenDemo/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/Mapper-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mavenDemo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8 (4)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

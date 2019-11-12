@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/Resources/Mapper-config.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/DAO/doIJdbc.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/bean/Lession.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/bean/Score.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/bean/Student.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/bean/login.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/bean/page.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/biz/doIBiz.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/filter/dofilter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/servlet/doAction.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/add.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/addst.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/doserver.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/douseserver.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/easyui" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/err.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/findByNa.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/findByNaErr.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/fogotpw.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/fogotpwsuccess.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/list.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/login.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/look.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/picture" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/stlist.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/success.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/type.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/updatepw.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/uselist.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/useradd.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/welcome.jsp" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

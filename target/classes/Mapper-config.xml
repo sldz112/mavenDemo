@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--实体类型别名  -->
+  <typeAliases>
+   <typeAlias type="com.bean.Student" alias="Student"/>
+    <typeAlias type="com.bean.Lession" alias="Lession"/>
+     <typeAlias type="com.bean.login" alias="login"/>
+      <typeAlias type="com.bean.page" alias="page"/>
+       <typeAlias type="com.bean.Score" alias="Score"/>
+  </typeAliases>
+  <!-- 数据库连接的环境变量 -->
+  <!--在Spring配置文件中配置过了  -->
+  <!-- 配置mapper的映射文件 -->
+ <!--  <mappers>
+  <mapper resource="com/DAO/StScMapper.xml"/>
+  </mappers> -->
+</configuration>

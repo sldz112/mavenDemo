@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<mapper namespace="com.DAO.IJdbc">
+	<!--结果集1  -->
+	<resultMap type="com.bean.login" id="login">
+	<id column="uid" property="uid" />
+	<result column="uname" property="uname"/>
+	<result column="upw" property="upw"/>
+	<result column="jur" property="jur"/>
+	<result column="ques" property="ques"/>
+	<result column="ans" property="ans"/>
+	</resultMap>
+	<resultMap type="com.bean.Student" id="stu">
+	<id column="stuid" property="stuid" />
+	<result column="sname" property="sname"/>
+	<result column="sclazz" property="sclazz"/>
+	<result column="spicture" property="spicture"/>
+	</resultMap>
+	<!--成绩系统sql语句  -->
+	<!--1、增加学生  -->
+      <insert id="addst" parameterType="com.bean.Student">
+      insert into student(sname,sclazz,spicture) values(#{sname},#{sclazz},#{spicture})
+      </insert>
+     <!--2、增加成绩前的查询  -->
+     <select id="bfadd" parameterType="com.bean.Score" resultType="com.bean.Score">
+     select * from score where studentid=#{studentid} and lessionid=#{lessionid}
+     </select>    
+     
+     <!--3、增加成绩  -->
+     <insert id="add" parameterType="com.bean.Score">
+     insert into score(score,studentid,lessionid) values(#{score},#{studentid},#{lessionid})
+     </insert>
+     <!--4、改成绩  -->
+     <update id="update" parameterType="com.bean.Score">
+     update score set score=#{score} where scoid=#{scoid}
+     </update>
+     <!--5、根据ID  删  -->
+     <delete id="del" parameterType="string">
+     delete from score where scoid=#{scoid}
+     </delete>
+     <!--6、查单个成绩  -->
+     <select id="FindById" parameterType="string" resultType="com.bean.Score">
+     select * from scview where scoid=#{scoid}
+     </select>
+     <!--7、查视图所有，返回一个集合  -->
+     <select id="findAll" resultType="com.bean.Score">
+     select * from scview
+     </select>
+     <!--8、 查学生表所有 -->
+     <select id="findStAll" resultMap="stu">
+     select * from student where 1=1
+     </select>
+     <!--9、查课程表所有  -->
+       <select id="findLeAll" resultType="com.bean.Lession">
+       select * from lession where 1=1
+       </select>
+     
+
+
+	<!--用户系统sql语句  -->
+	<!--1、查询所有用户-->
+	<select id="findLoAll" resultMap="login">
+	select * from douser
+	</select>
+	<!--2、用户注册  -->
+	<insert id="doadd" parameterType="com.bean.login">
+	insert into douser(uname,upw,ques,ans) values(#{uname},#{upw},#{ques},#{ans})
+	</insert>
+	<!--3、用户登录方法  -->
+	<select id="findunup" parameterType="com.bean.login" resultType="com.bean.login">
+	 select * FROM douser WHERE uname=#{uname} AND upw=#{upw}
+	</select>
+	<!--4、修改密码1，输入原用户名，密码，如果匹配成功，返回该条记录的ID  -->
+	<select id="useupdate1" parameterType="com.bean.login" resultType="com.bean.login">
+	 SELECT * FROM douser WHERE uname=#{uname} AND upw=#{upw}
+	</select>
+	<!--5、修改密码2，根据ID修改密码  -->
+	<update id="useupdate2" parameterType="com.bean.login" >
+	UPDATE douser SET upw=#{upw} WHERE uid=#{uid}
+	</update>
+	<!--6、通过学生姓名查找一个集合  -->
+	<select id="FindByNa" parameterType="String" resultType="com.bean.Score">
+	 select * from scview where sname=#{sname}
+	</select>
+	<!--7、通过ID改权限  -->
+	<update id="updatejur" parameterType="String" >
+	UPDATE douser SET jur=10 WHERE uid=#{uid}
+	</update>
+	<!--8、根据ID删用户  -->
+	<delete id="del2" parameterType="String">
+	delete from douser where uid=#{uid}
+	</delete>
+	<!--9、忘记密码1，输入原用户名，如果匹配成功，返回该条记录的id和密保问题  -->
+	<select id="fogotpw1" parameterType="String" resultType="com.bean.login">
+	SELECT * FROM douser WHERE uname=#{uname}
+	</select>
+	<!--10、忘记密码2，输入密保答案，如果匹配成功，返回该条记录的id  -->
+	<select id="fogotpw2" parameterType="com.bean.login" resultType="com.bean.login">
+	SELECT * FROM douser WHERE uid=#{uid} AND ans=#{ans}
+	</select>
+	<!--11、忘记密码3，根据ID修改密码  -->
+	<update id="fogotpw3" parameterType="String">
+	UPDATE douser SET upw=#{upw} WHERE uid=#{uid}
+	</update>
+	<!--分页sql语句  -->
+	<!--1、分页查询  -->
+	<select id="findPageList" resultType="com.bean.Score">
+	select * from scview order by scoid LIMIT #{page},#{rows}
+	</select>
+	<!--3、查询最大记录数  -->
+	<select id="maxPage" parameterType="integer" resultType="integer">
+	select count(*) from scview
+	</select>
+	</mapper>
